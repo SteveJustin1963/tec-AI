@@ -9,7 +9,8 @@
 
 ## References
 
--https://github.com/ForthWin/Mind-forth-AI-main
+- https://en.wikipedia.org/wiki/Pulse-coupled_networks
+- https://github.com/ForthWin/Mind-forth-AI-main
 - http://mind.sourceforge.net/forth.html
 - http://mind.sourceforge.net/m4thuser.html
 

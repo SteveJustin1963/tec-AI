@@ -7,8 +7,8 @@
 
 
 
-## References
-
+### References
+- https://beta.openai.com/playground
 - https://en.wikipedia.org/wiki/Pulse-coupled_networks
 - https://github.com/ForthWin/Mind-forth-AI-main
 - http://mind.sourceforge.net/forth.html

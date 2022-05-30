@@ -13,4 +13,9 @@
 - https://github.com/ForthWin/Mind-forth-AI-main
 - http://mind.sourceforge.net/forth.html
 - http://mind.sourceforge.net/m4thuser.html
+- https://hackaday.com/tag/tty/, https://www.youtube.com/watch?v=OYJti8dJMV4
+- https://en.wikipedia.org/wiki/MegaHAL
+- https://en.wikipedia.org/wiki/Hidden_Markov_model
+- 
+
 

@@ -1,0 +1,85 @@
+Thinking AI
+This is not a definitive answer, but rather one possible implementation:
+
+var 
+  i,j,k,l,m,n : integer; 
+  a,b,c,d,e,f,g,h,i,j,k,l,m,n : real; 
+
+procedure main; 
+begin 
+  i := 1; 
+  j := 1; 
+  k := 1; 
+  l := 1; 
+  m := 1; 
+  n := 1; 
+  a := 0; 
+  b := 0; 
+  c := 0; 
+  d := 0; 
+  e := 0; 
+  f := 0; 
+  g := 0; 
+  h := 0; 
+  i := 0; 
+  j := 0; 
+  k := 0; 
+  l := 0; 
+  m := 0; 
+  n := 0; 
+
+  while i <= 10 do 
+  begin 
+    a := a + i*i*i; 
+    b := b + i*i; 
+    c := c + i; 
+    i := i + 1; 
+  end; 
+
+  while j <= 10 do 
+  begin 
+    d := d + j*j*j; 
+    e := e + j*j; 
+    f := f + j; 
+    j := j + 1; 
+  end; 
+
+  while k <= 10 do 
+  begin 
+    g := g + k*k*k; 
+    h := h + k*k; 
+    i := i + k; 
+    k := k + 1; 
+  end; 
+
+  while l <= 10 do 
+  begin 
+    j := j + l*l*l; 
+    k := k + l*l; 
+    l := l + 1; 
+  end; 
+
+  while m <= 10 do 
+  begin 
+    m := m + m*m*m; 
+    n := n + m*m; 
+    m := m + 1; 
+  end; 
+
+  writeln('a = ',a:0:0); 
+  writeln('b = ',b:0:0); 
+  writeln('c = ',c:0:0); 
+  writeln('d = ',d:0:0); 
+  writeln('e = ',e:0:0); 
+  writeln('f = ',f:0:0); 
+  writeln('g = ',g:0:0); 
+  writeln('h = ',h:0:0); 
+  writeln('i = ',i:0:0); 
+  writeln('j = ',j:0:0); 
+  writeln('k = ',k:0:0); 
+  writeln('l = ',l:0:0); 
+  writeln('m = ',m:0:0); 
+  writeln('n = ',n:0:0); 
+
+  readln; 
+end;

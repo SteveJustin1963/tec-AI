@@ -14,7 +14,7 @@
 - The "return 0" statement at the end of the main function indicates that the program has run successfully.
 
 
-## Variance: `var`.c`
+## Variance: `var1.c`
 This code demonstrates a simple AI-related functionality, which is the calculation of variance. Variance is a measure of the spread between numbers in a data set, it's a statistical tool used in AI and machine learning to understand the distribution of data.
 - The program prompts the user to enter the number of elements, and then for each element, it prompts the user to enter a value. 
 - It then uses these values to calculate the variance of the data set. 

@@ -38,16 +38,20 @@ void kMeans(int n, int k, double data[][2], double centroids[][2]) {
         changed = 0;
         for (int m = 0; m < n; m++) {
             min_distance = INFINITY;
+            int old_cluster = cluster_assignment[m]; // Store old cluster assignment
             for (j = 0; j < k; j++) {
                 distance = sqrt(pow(data[m][0] - centroids[j][0], 2) + pow(data[m][1] - centroids[j][1], 2));
                 if (distance < min_distance) {
                     min_distance = distance;
                     cluster_assignment[m] = j;
-                    changed = 1;
                 }
             }
+            // If the cluster assignment has changed, flag it
+            if (old_cluster != cluster_assignment[m]) {
+                changed = 1;
+            }
         }
-       
+
         if (!changed) {
             break;
         }
